@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>DeliveryDetector</title>
+    <link rel="icon" href="logo_Delivery.ico" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" ; charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="DeliveryDetector" />
+    <meta property="og:description" content="DeliveryDetector" />
+    <meta property="og:site_name" content="DeliveryDetector.github.io" />
+    <meta property="og:image" content="logo_Delivery.png" />
+
+    <!-- Eigenes CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid">
+        <div class="title">
+            <img src="logo_Delivery.png" />
+        </div>
+        <div class="text1">
+            <p>Dank unserer Anwedung wird nie wieder ein Paket verpasst, weil der Postbote die Tür nicht finden konnte. Wir nutzen Computer Vision, um DHL-Autos zuerkennen, die vor der Wohnung halten. Sobald erkannt wird, dass ein DHL-Lieferant hält, ertönt das Geräusch eines historischen Posthorns und man kann dem Boten helfen, die Tür zu finden.
+            </p>
+            <a class="button" href="https://github.com/DeliveryDetector/DeliveryDetector" target="_blank">Show Code</a>
+        </div>
+        <div class="text2">
+            <p>"DeliveryDetector" nutzt die historischen Posthornklänge aus dem Albert-Hiller-Datensatz, um den Nutzer auf DHL-Autos vor seiner Wohnung hinzuweisen.
+Lieferanten haben nur wenig Zeit alle Pakete auszuliefern. Da ist es kein Wunder, dass sie nicht lange die Haustür suchen können. Bei verwinkelten Wohnsituationen geht da schnell ein Paket in den Paketshop statt nach Hause, obwohl man selbst da war.
+Unsere Anwendung soll das verhindern. Wir haben ein Programm entwickelt, dass auf einem Raspberry Pi (einem kleinen Computer) laufen kann. Mit einer Kamera ausgestattet, kann dieser haltende DHL-Autos erkennen und den Nutzer mit dem Klang eines Posthorns darauf hinweisen. Für den Computer-Vision-Teil des Projektes nutzen wir OpenCV und eine selbst trainierten HAAR Classifier, der die Videodaten in Echtzeit analysiert.
+Damit bemerkt der Nutzer die Ankunft des Lieferanten und kann ihm entgegenkommen, wenn dieser mal die Haustür nicht findet.
+            </p>
+        </div>
+        <div class="bild">
+			<img class="demo-bild" src="raspi.png" />
+        </div>
+        <div class="footer">
+            <p><a href="https://codingdavinci.de/events/rheinmain/" target="_blank">Coding da Vinci Rhein-Main 2018</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
