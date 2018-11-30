@@ -23,6 +23,7 @@ img {
     "title"
     "text1"
     "bild"
+    "bild2"
     "text2"
     "footer";
     grid-gap: 2em;
@@ -40,6 +41,7 @@ img {
         ". title ."
         ". text1 ."
         ". bild ."
+        ". bild2 ."
         ". text2 ."
         ". footer .";
     }
@@ -56,6 +58,10 @@ img {
 }
 
 .bild{
+    grid-area: bild;
+}
+
+.bild2{
     grid-area: bild;
 }
 
